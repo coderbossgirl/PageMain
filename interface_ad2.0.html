@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="main.css">
     <title>Main</title>
 </head>
 <body>
 
     <header>
-        <table class="header">
+        <div class="navbar">
+            <table class="header">
+                <tr>
+                    <td class="logo">logo</td>
+                    <td><img src="https://img.icons8.com/ios-filled/50/000000/search--v1.png"/><input type="text" value="SEARCH"></td>
+                    <td class="back">back</td>
+                </tr>
+            </table>
+        </div>
+
+
+
+        <!-- <div class="header">
+             <p class="logo"><span class="logo"> logo</span> <img src="https://img.icons8.com/ios-filled/50/000000/search--v1.png"/><input type="text" value="SEARCH"><span style="text-align: right"> back</span></p> -->
+            <!-- <div class="inp">
+                <img src="https://img.icons8.com/ios-filled/50/000000/search--v1.png"/><input type="text" value="SEARCH">
+            <p class="back">back</p>
+            </div> -->
+
+
+
+        <!-- <table class="header">
             <thead>
                 <tr>
                     <th>logo</th>
@@ -18,17 +39,16 @@
                     <th>back</th>
                 </tr>
             </thead>
-        </table>
+        </table> -->
     </header>
 
     <section>
     
     <div class="main">
-        <div class="nav">
-        <ul class="menu">
-            <li><a href="#">NAME RAZDEL</a>
+        <div style="border: 2px solid gray; padding: 5px; height: 500px; overflow: auto;">
+            <div class="nav">
                 <ul class="menu">
-                    <li><a href="#">NAME PODRAZDEL</a>
+                    <li><a href="#">NAME RAZDEL</a>
                         <ul class="menu">
                             <li><a href="#">NAME PODRAZDEL</a>
                                 <ul class="menu">
@@ -43,17 +63,21 @@
                                                                     <li><a href="#">NAME PODRAZDEL</a>
                                                                         <ul class="menu">
                                                                             <li><a href="#">NAME PODRAZDEL</a>
-                                                                                <ul class="menu">
+                                                                                <!-- <ul class="menu">
                                                                                     <li><a href="#">NAME PODRAZDEL</a>
                                                                                         <ul class="menu">
                                                                                             <li><a href="#">NAME PODRAZDEL</a>
                                                                                                 <ul class="menu">
-                                                                                                    <li><a href="#">NAME PODRAZDEL</a></li>
+                                                                                                    <li><a href="#">NAME PODRAZDEL</a>
+                                                                                                        <ul class="menu">
+                                                                                                            <li><a href="#">NAME PODRAZDEL</a></li>
+                                                                                                        </ul>
+                                                                                                    </li>
                                                                                                 </ul>
                                                                                             </li>
                                                                                         </ul>
                                                                                     </li>
-                                                                                </ul>
+                                                                                </ul> -->
                                                                             </li>
                                                                         </ul>
                                                                     </li>
@@ -70,229 +94,120 @@
                         </ul>
                     </li>
                 </ul>
-            </li>
-        </ul>
-
-    </div>
-
-        <!-- <div class="menuraz">
-
-        
-        <ul class="menu1">
-            <li><a href="#">NAME RAZDEL</a>
-                <ul class="menu">
-                    <li><a href="#">NAME PODRAZDEL</a>
-                        <ul class="menu">
-                            <li><a href="#">NAME PODRAZDEL</a>
-                                <ul class="menu">
-                                    <li><a href="#">NAME PODRAZDEL</a>
-                                        <ul class="menu">
-                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                <ul class="menu">
-                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                        <ul class="menu">
-                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                <ul class="menu">
-                                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                                        <ul class="menu">
-                                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                                <ul class="menu">
-                                                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                                                        <ul class="menu">
-                                                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                                                <ul class="menu">
-                                                                                                    <li><a href="#">NAME PODRAZDEL</a></li>
-                                                                                                </ul>
-                                                                                            </li>
-                                                                                        </ul>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-        <ul class="menu2">
-            <li><a href="#">NAME RAZDEL</a>
-                <ul class="menu">
-                    <li><a href="#">NAME PODRAZDEL</a>
-                        <ul class="menu">
-                            <li><a href="#">NAME PODRAZDEL</a>
-                                <ul class="menu">
-                                    <li><a href="#">NAME PODRAZDEL</a>
-                                        <ul class="menu">
-                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                <ul class="menu">
-                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                        <ul class="menu">
-                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                <ul class="menu">
-                                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                                        <ul class="menu">
-                                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                                <ul class="menu">
-                                                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                                                        <ul class="menu">
-                                                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                                                <ul class="menu">
-                                                                                                    <li><a href="#">NAME PODRAZDEL</a></li>
-                                                                                                </ul>
-                                                                                            </li>
-                                                                                        </ul>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-        <ul class="menu3">
-            <li><a href="#">NAME RAZDEL</a>
-                <ul class="menu">
-                    <li><a href="#">NAME PODRAZDEL</a>
-                        <ul class="menu">
-                            <li><a href="#">NAME PODRAZDEL</a>
-                                <ul class="menu">
-                                    <li><a href="#">NAME PODRAZDEL</a>
-                                        <ul class="menu">
-                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                <ul class="menu">
-                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                        <ul class="menu">
-                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                <ul class="menu">
-                                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                                        <ul class="menu">
-                                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                                <ul class="menu">
-                                                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                                                        <ul class="menu">
-                                                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                                                <ul class="menu">
-                                                                                                    <li><a href="#">NAME PODRAZDEL</a></li>
-                                                                                                </ul>
-                                                                                            </li>
-                                                                                        </ul>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-        <ul class="menu4">
-            <li><a href="#">NAME RAZDEL</a>
-                <ul class="menu">
-                    <li><a href="#">NAME PODRAZDEL</a>
-                        <ul class="menu">
-                            <li><a href="#">NAME PODRAZDEL</a>
-                                <ul class="menu">
-                                    <li><a href="#">NAME PODRAZDEL</a>
-                                        <ul class="menu">
-                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                <ul class="menu">
-                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                        <ul class="menu">
-                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                <ul class="menu">
-                                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                                        <ul class="menu">
-                                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                                <ul class="menu">
-                                                                                    <li><a href="#">NAME PODRAZDEL</a>
-                                                                                        <ul class="menu">
-                                                                                            <li><a href="#">NAME PODRAZDEL</a>
-                                                                                                <ul class="menu">
-                                                                                                    <li><a href="#">NAME PODRAZDEL</a></li>
-                                                                                                </ul>
-                                                                                            </li>
-                                                                                        </ul>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-        </div>   -->
-
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>   
     </div>
 
     <div class="container">
 
-        <h1 class="title">name page</h1>
-        
-        <div class="text">
-        
-        <p> <span style="text-decoration: line-through;">TEXT</span> <span style="text-decoration: underline">TEXT</span> <em>TEXT</em> <strong>TEXT</strong></p>
-        <ol>
-            <li>text</li>
-            <li>text</li>
-        </ol>
+            <div style="border: 2px solid gray; padding: 5px; height: 500px; overflow: auto;">
 
-        <ul class="ull">
-            <li>text</li>
-            <li>text</li>
-        </ul>
+                <h1 class="title">name page</h1>
+                
+                <div class="text">
+                
+                <p> <span style="text-decoration: line-through;">TEXT</span> <span style="text-decoration: underline">TEXT</span> <em>TEXT</em> <strong>TEXT</strong></p>
+                <ol>
+                    <li>text</li>
+                    <li>text</li>
+                </ol>
 
-        <p class="code">code</p>
+                <ul class="ull">
+                    <li>text</li>
+                    <li>text</li>
+                </ul>
+                <br>
 
+                <div class="code">code</div>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+
+            </div>
         </div>
 
 

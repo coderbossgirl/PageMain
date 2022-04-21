@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+} *
+
+/* @media screen and (max-width: 449px) {}
+@media screen and (min-width: 450px) and (max-width: 991px) {}
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+@media screen and (min-width: 1200px) {} */
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 330px) {
+    .section {
+        display: block;
+        width: 100%;
+    }
+
+    .header {
+        /* position: fixed; */
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 2;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .main {
+        width: 100%;
+        display: block;
+        /* float: right; */
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 100%;
+        display: block;
+        /* float: left; */
+        font-size: 1rem;
+        margin: 0 auto;
+
+    }
+
+
+    .title {
+        padding: 10px;
+        margin-bottom:0px;
+        font-size: 1rem;
+    }
+    
+    .text p {
+        margin: 10px 10px 10px 0px;
+        font-size: 1rem;
+    }
+    
+    .text ul, ol {
+        margin: 0px 10px 0px 10px;
+        font-size: 1rem;
+    }
+    
+    .code {
+        font-size: 1rem;
+        border-radius: 5px;
+        padding: 10px 10px 10px 5px;
+        margin: 10px 10px 10px 10px;
+    }
+}
+
+/* .header {
+    width: 95%;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 25px;
+    margin-left: 35px;
+    padding: 10px;
+    border: 2px solid gray;
+    position: relative;
+    justify-content: center;
+    font-weight: 0;
+    display: inline-block;
+    
+} */
+
+.header {
+    width: 100%;
+    border: 2px solid gray;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    /* display: inline-block; */
+    position: relative;
+    /* text-align: center; */
+    /* justify-content: center; */
+
+
+
+}
+
+.header .logo {
+    vertical-align: middle;
+}
+
+.header .back {
+    text-align: right;
+    vertical-align: middle
+}
+
+.header img {
+    width: 16px;
+}
+
+.header input {
+    width: 70%;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main {
+    font-family: sans-serif;
+    font-size: 10px;
+    width: 30%;
+    height: 500px;
+    /* border: 2px solid gray; */
+    margin-right: 35px;
+    padding: 10px;
+}
+
+
+.nav ul {
+    padding:0;
+    margin:0;
+    margin-right: 5px;
+    list-style: none;
+    position: relative;
+    }
+
+.nav ul li {
+    margin: 0px -7px 0 0;
+    /* display:inline-block; */
+    }
+
+.nav a {
+    display:block;
+    padding:5px 5px;
+    color:#000;
+    font-size:10px;
+    line-height: 10px;
+    text-decoration:none;
+    }
+
+.nav a:hover {
+    background-color: #eee;
+    }
+
+.nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    }
+
+.nav ul li:hover > ul {
+    display:inherit;
+    }
+
+.nav ul li {
+    min-width:70px;
+    float:none;
+    display:list-item;
+    position: relative;
+    }
+
+.nav ul ul li {
+    /* position: absolute; */
+    top:0;
+    left: 20%;
+    }
+
+/* Ниже иконки, которые что то не вставились */
+
+/* .nav ul{ list-style-image: url('union.png'); } */
+/* ul li { list-style-image: url('line.png'); } */
+
+
+.container {
+    font-family: sans-serif;
+    width: 70%;
+    height: 500px;
+    /* border: 2px solid gray; */
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.text p {
+    margin: 10px 50px 10px 30px;
+}
+
+.text ul, ol {
+    margin: 0px 10px 0px 70px;
+}
+
+.code {
+    font-family: sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: #fff;
+    padding: 10px 20px 70px 25px;
+    margin: 10px 50px 10px 50px;
+}
+
+.ull {
+    margin-top: 0px;
+}
