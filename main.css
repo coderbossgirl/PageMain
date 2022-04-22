@@ -15,6 +15,13 @@ section {
     justify-content: space-between;
 }
 
+@media (max-width: 330px) {
+    .section {
+        display: flex; flex-direction: column;
+        width: 100%;
+    }
+}
+
 .navbar {
     width: 100%;
     margin: 0 auto;
@@ -48,10 +55,12 @@ section {
 
     .container {
         width: 100%;
-        display: block;
+        display: none;
         /* float: left; */
         font-size: 1rem;
         margin: 0 auto;
+        /* margin-right: 30px; */
+        font-size: 1rem;
 
     }
 
@@ -108,9 +117,18 @@ section {
     position: relative;
     /* text-align: center; */
     /* justify-content: center; */
+}
 
-
-
+@media (max-width: 330px) {
+    .header {
+        /* position: fixed; */
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 2;
+        width: 100%;
+        font-size: 1rem;
+    }
 }
 
 .header .logo {
@@ -136,11 +154,22 @@ section {
 .main {
     font-family: sans-serif;
     font-size: 10px;
-    width: 30%;
+    width: 20%;
     height: 500px;
     /* border: 2px solid gray; */
     margin-right: 35px;
     padding: 10px;
+}
+
+@media (max-width: 330px) {
+    .main {
+        width: 100%;
+        display: block;
+        /* display: table-header-group; */
+        /* float: right; */
+        font-size: 1rem;
+        margin: 0 auto;
+    }
 }
 
 
@@ -201,11 +230,24 @@ section {
 
 .container {
     font-family: sans-serif;
-    width: 70%;
+    width: 80%;
     height: 500px;
     /* border: 2px solid gray; */
     padding: 10px;
     margin-left: 10px;
+}
+
+@media (max-width: 330px) {
+    .container {
+        width: 100%;
+        display: none;
+        /* display: table-footer-group; */
+        /* float: left; */
+        font-size: 1rem;
+        margin: 0 auto;
+        font-size: 1rem;
+
+    }
 }
 
 .title {
@@ -217,12 +259,35 @@ section {
     margin-bottom: 30px;
 }
 
+@media (max-width: 330px) {
+    .title {
+        padding: 10px;
+        margin-bottom:0px;
+        font-size: 1rem;
+    }
+}
+
 .text p {
     margin: 10px 50px 10px 30px;
 }
 
+@media (max-width: 330px) {
+    .text p {
+        margin: 10px 10px 10px 10px;
+        font-size: 1rem;
+    }
+}
+
+
 .text ul, ol {
     margin: 0px 10px 0px 70px;
+}
+
+@media (max-width: 330px) {
+    .text ul, ol {
+        margin: 0px 10px 0px 30px;
+        font-size: 1rem;
+    }
 }
 
 .code {
@@ -235,6 +300,15 @@ section {
     color: #fff;
     padding: 10px 20px 70px 25px;
     margin: 10px 50px 10px 50px;
+}
+
+@media (max-width: 330px) {
+    .code {
+        font-size: 1rem;
+        border-radius: 5px;
+        padding: 10px 30px 50px 5px;
+        margin: 10px 10px 10px 10px;
+    }
 }
 
 .ull {
